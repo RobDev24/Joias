@@ -20,7 +20,7 @@ export default{
 
 <style scoped>
 .eventos{
-  border: 2px solid red;
+  
   height: 60vh;
 }
 

@@ -1,7 +1,10 @@
 <template>
+  
   <div class="home">
+    <Menu/>
     <slider/>
     <Rodape/>
+    
     
   </div>
 </template>
@@ -9,12 +12,14 @@
 <script>
 import Slider from '@/components/SliderHome.vue'
 import Rodape from '@/components/Rodape.vue'
+import Menu from '@/components/Menu.vue'
 
 export default {
   name: 'HomeView',
   components: {
     Slider,
-    Rodape
+    Rodape,
+    Menu
    
 
   
@@ -22,7 +27,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .home{
   background: #000;
   background-image: url('../assets/fundo1.PNG');

@@ -1,4 +1,5 @@
 <template>
+  <Menu/>
   <div class="eventos">
     <h1>This is an event  page</h1>
     
@@ -7,12 +8,14 @@
 </template>
 
 <script>
+import Menu from '@/components/Menu.vue'
 import Rodape from '@/components/Rodape.vue'
 
 export default{
   name: 'EventosView',
 
   components: {
+    Menu,
     Rodape
   }
 }

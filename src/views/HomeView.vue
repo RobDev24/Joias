@@ -1,40 +1,34 @@
 <template>
-  
-  <div class="home">
-    <Menu/>
-    <slider/>
-    <Rodape/>
-    
+  <Menu/>
+  <Slider/>
+  <div >
     
   </div>
+  <Rodape/>
 </template>
 
 <script>
 import Slider from '@/components/SliderHome.vue'
-import Rodape from '@/components/Rodape.vue'
 import Menu from '@/components/Menu.vue'
+import Rodape from '@/components/Rodape.vue'
 
-export default {
-  name: 'HomeView',
+export default{
+
+  name: 'HomeViwe',
   components: {
-    Slider,
+    Menu,
     Rodape,
-    Menu
-   
-
-  
+    Slider
   }
 }
 </script>
 
 <style scoped>
 .home{
-  background: #000;
+  height: 65vh;
   background-image: url('../assets/fundo1.PNG');
   background-repeat: no-repeat;
   background-size: cover;
-  
-  
 }
 
 </style>

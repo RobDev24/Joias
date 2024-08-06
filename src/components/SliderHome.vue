@@ -16,11 +16,16 @@
 
 
 <style scoped>
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container
 {
-    height:60vh;
-    display:flex;
+    height:65vh;
+    max-width: 700vh;
+    display:grid;
     align-items: center;
    justify-content: right;
     background-image: url('../assets/fundo1.PNG');
@@ -33,7 +38,7 @@
         position:relative;
         top:0;
         left:0;
-        margin-right: 30vw;
+        margin-right: 25rem;
         width:100px;
         height:100px;
         transform-style:preserve-3d;
@@ -55,8 +60,9 @@
             }
             .galery span img{
                 position:absolute;
-                top:0;left:
-                0;width:100%;
+                top:0;
+                left:0;
+                width:100%;
                 height:100%
             }
 

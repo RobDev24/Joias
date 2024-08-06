@@ -24,7 +24,9 @@ export default{
 
 <style scoped>
 .store{
-    height: 60vh;
+    height: 65vh;
+    color: aliceblue;
+    background-image: url('../assets/diamante2.PNG');
 }
 
 </style>

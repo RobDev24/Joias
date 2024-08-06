@@ -31,6 +31,12 @@ const routes = [
    
     component: () => import('../views/SobreView.vue')
   },
+  {
+    path: '/cole',
+    name: 'colecoes',
+   
+    component: () => import('../views/ColecoesView.vue')
+  },
 ]
 
 const router = createRouter({

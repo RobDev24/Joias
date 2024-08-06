@@ -23,8 +23,11 @@ export default{
 
 <style scoped>
 .eventos{
-  
-  height: 60vh;
+  color: aliceblue;
+  height: 65vh;
+  background-image: url('../assets/fundo1.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 </style>

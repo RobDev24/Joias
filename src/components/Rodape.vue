@@ -1,10 +1,10 @@
 <template>
     <div class="rodape">
         <div class="contato">
-            <h2>Central de Atendimento</h2>
-            <h3>(11)3333-3333</h3>
-            <h5>Atendimento de Seg a Sex 09hs as 17hs</h5>
-            <h5>Sac: Atendimento@tomjoias.com.br</h5>
+            <h3>Central de Atendimento</h3>
+            <h4>(11)3333-3333</h4>
+            <h6>Atendimento de Seg a Sex 09hs as 17hs</h6>
+            <h6>Sac: Atendimento@tomjoias.com.br</h6>
 
         </div>
         <div class="links">
@@ -21,7 +21,7 @@
         </div>
 
         <div class="pagtodireitos">
-            <h3>Formas de Pagamento</h3>
+            <h5>Formas de Pagamento</h5>
             <img src="" alt="">
             <img src="" alt="">
             <img src="" alt="">
@@ -47,7 +47,8 @@ export default{
 .rodape{
     display: flex;
     background: #000;
-    height:100px;
+    height:23vh;
+    
     
 
 
@@ -55,10 +56,10 @@ export default{
 }
 .contato{
     margin-left: 10px;
-    height: 100%;
+    height: 100;
     width: 350px;
     color:aqua;
-    margin-top: -18px;
+    margin-top: 10px;
     
 
     
@@ -87,15 +88,15 @@ export default{
         padding: 1px;
         margin-left: 10px;
     }
-    .pagtodireitos h3{
+    .pagtodireitos h5{
         color: beige;
         margin-top: 5px;
-        margin-left: -270px;
+        margin-left: -340px;
     }
     .pagtodireitos p{
         color: beige;
         text-align: right;
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
 </style>

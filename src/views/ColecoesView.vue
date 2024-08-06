@@ -1,19 +1,20 @@
 <template>
     <Menu/>
-    <div class="historia">
-        <h1>This is an history  page</h1>  
+    <div class="colecoes">
+        <h1>This is an  page</h1>  
     </div>
     <Rodape/>
 </template>
 
 
 <script>
+
 import Menu from '@/components/Menu.vue'
 import Rodape from '@/components/Rodape.vue'
 
-export default{
-    name: 'SobreView',
 
+export default{
+    name: 'ColecoesView',
     components: {
         Menu,
         Rodape
@@ -27,6 +28,15 @@ export default{
     height: 65vh;
     background-image: url('../assets/fundo2.PNG');
     color: aliceblue;
+}
+
+</style>
+
+<style scoped>
+.colecoes{
+    height: 65vh;
+    color: aliceblue;
+    background-image: url('../assets/fundo2.PNG');
 }
 
 </style>

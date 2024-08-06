@@ -1,9 +1,8 @@
 <template>
-
-<Menu/>
-<div class="container">
-    <div class="formulario">
-         <h2>Entre em contato</h2>
+    <Menu/>
+    <div class="contato" >
+        <div class="form">
+            <h2>Entre em contato</h2>
           <form action="https://api.staticforms.xyz/submit" method="post">
   
               <label>Nome</label>
@@ -29,14 +28,13 @@
               <input type="hidden" name="redirectTo" value="http://localhost:5173/C">
   
           </form>
-  
-      </div>
-    </div>
-  <Rodape/>
 
-  </template>
+        </div>        
+    </div >
+    <Rodape/>
+</template>
 
-  <script>
+<script>
 import Rodape from '@/components/Rodape.vue'
 import Menu from '@/components/Menu.vue'
 
@@ -48,53 +46,47 @@ export default{
         Menu
     }
 }
-
 </script>
 
+<style scoped>
 
-  
-  <style scoped>
-
-  .container{
-    
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contato{
+    display: grid;
+    height: 65vh;
     background-image: url('../assets/fundo2.PNG');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 99vw;
-    height: 60vh;
+}
+.form{
+    background:transparent;
+    height: 100%;
+    width: 30vw;
+    display: grid;
+    margin-left: 15rem;
+    color:#0b0000;
+    font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif
     
-    
-  }
-  .formulario{
-    background: transparent;
-     width:30vw;
-     height: 100%;
-     display:block;
-     box-shadow:rgba(17,17,26,0.1) 0 4px 16px,rgba(17,17,26,0.1) 0 8px 24px,rgba(17,17,26,0.1) 0 16px 56px;
-     margin-left:20rem;
-     align-items:center;
-     padding:5px;
-     color:#0b0000;
-     font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif
-    }
-   .formulario h2{
+}
+.form h2{
     margin-top: 3px;
     margin-bottom: -10px;
     color:aqua;
-   }
-    .formulario form{
-        display: flex;
-        flex-direction:column;
-        
-    }
-    .formulario label{
-        text-align: left;
+}
+.form form{
+    display: flex;
+    flex-direction:column;
+}
+.form label{
+    text-align: left;
         padding-top: 15px;
         color:aqua;
-
-    }
-
-    button{
+}
+button{
         height: 4vh;
         width: 5vw;
         margin-top: 0.30rem;
@@ -106,10 +98,4 @@ export default{
         border-radius:10px;
         font-family:'Courier New',Courier,monospace
     }
-
-    textarea{
-        height: 18vh;
-    }
-  
-  </style>
-  
+</style>

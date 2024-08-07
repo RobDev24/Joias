@@ -37,6 +37,9 @@ export default{
     height: 65vh;
     color: aliceblue;
     background-image: url('../assets/fundo2.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 </style>

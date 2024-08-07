@@ -61,6 +61,7 @@ export default{
     background-image: url('../assets/fundo2.PNG');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .form{
     background:transparent;

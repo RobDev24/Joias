@@ -27,6 +27,8 @@ export default{
     height: 65vh;
     color: aliceblue;
     background-image: url('../assets/diamante2.PNG');
+    background-size: cover;
+    background-position: center;
 }
 
 </style>

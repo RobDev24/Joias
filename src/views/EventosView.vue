@@ -28,6 +28,7 @@ export default{
   background-image: url('../assets/fundo1.PNG');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 </style>

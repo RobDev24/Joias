@@ -3,7 +3,7 @@
 
         <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" >Joias</a>
+    <router-link to="/log"><a class="navbar-brand">Login</a></router-link>
     
     <div class="collapse navbar-collapse" >
       <ul class="navbar-nav">
@@ -31,9 +31,11 @@
 </template>
 
 <script>
+
 export default{
     name
 }
+
 </script>
 
 <style scoped>
